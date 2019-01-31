@@ -1,13 +1,13 @@
 # Lab 1
 # Part I
 def sum arr
-  arr.inject(0){|sum,x| sum + x }
+ return arr.sum
   # YOUR CODE HERE
 end
 
 # Part II
 def max_2_sum arr
-  
+ sum(arr.sort.last(2))
   # YOUR CODE HERE
 end
 
