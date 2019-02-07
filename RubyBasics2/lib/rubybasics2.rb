@@ -2,7 +2,7 @@
 
 # Part I
 def hello(name)
-  # YOUR CODE HERE
+  "Hello, #{name}"
 end
 
 # Part II
