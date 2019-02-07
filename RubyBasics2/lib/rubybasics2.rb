@@ -7,7 +7,7 @@ end
 
 # Part II
 def starts_with_consonant? s
-  # YOUR CODE HERE
+  /^[b-df-hj-np-tv-z]/i.match(s) != nil
 end
 
 # Part III
