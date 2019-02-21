@@ -8,9 +8,15 @@ class Dessert
   end
   def healthy?
     # your code here
+    if @calories < 200
+      return true
+    else
+      return false
+    end
   end
   def delicious?
     # your code here
+    return true
   end
 end
 
